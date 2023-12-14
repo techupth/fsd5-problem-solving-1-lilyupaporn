@@ -2,6 +2,8 @@
 
 const addStrings = function (num1, num2) {
   //Start coding here
+  addResult = Number(num1) + Number(num2);
+  return addResult.toString();
 };
 
 const result1 = addStrings("11", "123");
